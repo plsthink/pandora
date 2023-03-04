@@ -1,0 +1,9 @@
+[package]
+name = "pandora"
+version = { workspace = true }
+edition = { workspace = true }
+
+[dependencies]
+futures-core = { workspace = true }
+kanal = { wokspace = true }
+tokio = { workspace = true, features = ["macros", "rt-multi-thread"] }
